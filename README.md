@@ -1,5 +1,7 @@
 # Fake Job Posting Detector
 
+[🌐 View the Live App](https://fake-job-detector-maabqiij4gtvfnhtfl92et.streamlit.app/)
+
 🚀 A machine learning project to detect fake job postings using Natural Language Processing and classification models.
 
 ---
@@ -56,3 +58,31 @@ This solution uses:
 5. Returns:
     - Class label → Fake or Genuine
     - Probability score
+---
+
+## 🖥️ Run Locally
+
+### 1. Clone the Repo
+
+```bash
+git clone https://github.com/jdas47/Fake-Job-Detector.git
+cd fake-job-detector
+```
+
+### 2. Install Dependencies
+```
+pip install -r requirements.txt
+```
+
+### 3.  Ensure You Have These Files
+```
+fake_job_detector_model.pkl
+tfidf_vectorizer.pkl
+```
+
+### 4.  Run the App
+```
+streamlit run app.py
+```
+
+
